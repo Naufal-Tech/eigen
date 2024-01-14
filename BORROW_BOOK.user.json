@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "65a274cb1aa80d45a74d538f"
+  },
+  "username": "Angga",
+  "fullName": "Angga",
+  "email": "Angga@gmail.com",
+  "password": "$2b$10$TsfcerFsxFrww2FQ.wn7Su.Zq5iMvu1S.u7lNuq22oJ.n0OwhuD4W",
+  "phoneNumber": "082112023846",
+  "codeMember": "M001",
+  "role": "User",
+  "address": [],
+  "borrowed_book": [],
+  "img_profile": "https://res.cloudinary.com/dpdl2xumr/image/upload/v1705145553/ft65c8eeum1iezy3mjmw.jpg",
+  "img_profilePublic": "ft65c8eeum1iezy3mjmw",
+  "created_at": {
+    "$numberLong": "1705145547669"
+  },
+  "slug": "angga",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a2752e1aa80d45a74d5396"
+  },
+  "username": "admin",
+  "fullName": "Admin",
+  "email": "admin@gmail.com",
+  "password": "$2b$10$4hqDvs6cf3EsrFfaU0L3ieQB1XZqo36r7LHo3Wk6GxUfSGUIvg0kC",
+  "phoneNumber": "082112023845",
+  "codeMember": "0000",
+  "role": "Admin",
+  "address": [],
+  "borrowed_book": [],
+  "img_profile": "https://res.cloudinary.com/dpdl2xumr/image/upload/v1705145648/m7gwcm5glw0nvked4brk.jpg",
+  "img_profilePublic": "m7gwcm5glw0nvked4brk",
+  "created_at": {
+    "$numberLong": "1705145646053"
+  },
+  "slug": "admin",
+  "__v": 9,
+  "updated_at": {
+    "$numberLong": "1705150893538"
+  },
+  "updated_by": {
+    "$oid": "65a2752e1aa80d45a74d5396"
+  },
+  "penalty": false,
+  "borrow_history": [
+    {
+      "book_id": {
+        "$oid": "65a36dfb0fa2193c8dad460d"
+      },
+      "code": "JK-45",
+      "borrowed_at": {
+        "$numberLong": "1705233803900"
+      },
+      "_id": {
+        "$oid": "65a3cd8b2a2a47fd3c7facfa"
+      },
+      "returned_at": {
+        "$numberLong": "1705233837940"
+      }
+    },
+    {
+      "book_id": {
+        "$oid": "65a36dfb0fa2193c8dad460d"
+      },
+      "code": "JK-45",
+      "borrowed_at": {
+        "$numberLong": "1705233865512"
+      },
+      "_id": {
+        "$oid": "65a3cdc92a2a47fd3c7fad09"
+      },
+      "returned_at": {
+        "$numberLong": "1705233870012"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65a275fde8be3cb7f8255b40"
+  },
+  "username": "Ferry",
+  "fullName": "Ferry",
+  "email": "ferry@gmail.com",
+  "password": "$2b$10$L9aviADC6dEJBRTbSbEq9u2Unk8Zfedm.2uA4E1LjzG4bvMHLyTkq",
+  "phoneNumber": "082112023847",
+  "codeMember": "M002",
+  "role": "User",
+  "address": [],
+  "borrowed_book": [],
+  "img_profile": "https://res.cloudinary.com/dpdl2xumr/image/upload/v1705145856/kwupkoopausg0qrqc4cb.jpg",
+  "img_profilePublic": "kwupkoopausg0qrqc4cb",
+  "created_at": {
+    "$numberLong": "1705145853881"
+  },
+  "slug": "ferry",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a2771f79740ebadcf41397"
+  },
+  "username": "Putri",
+  "fullName": "Putri",
+  "email": "putri@gmail.com",
+  "password": "$2b$10$lZnB1KSVEH3OVggA6vq6TeMKSjZQqulc.zefGvM.QkOp00X17wjd6",
+  "phoneNumber": "082112023848",
+  "codeMember": "M003",
+  "role": "User",
+  "address": [],
+  "borrowed_book": [],
+  "img_profile": "https://res.cloudinary.com/dpdl2xumr/image/upload/v1705146146/tsgatlxxd0mnx7geox5k.jpg",
+  "img_profilePublic": "tsgatlxxd0mnx7geox5k",
+  "created_at": {
+    "$numberLong": "1705146143785"
+  },
+  "slug": "putri",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a3661f1a042791a8862d9d"
+  },
+  "username": "Delete",
+  "fullName": "Delete",
+  "email": "delete@gmail.com",
+  "password": "$2b$10$jpz68tlrpO9X3fSqK2vT1eaOTbScUVS1jfBmOZShy.kAq.bELQeQS",
+  "phoneNumber": "082112023849",
+  "codeMember": "Delete",
+  "role": "User",
+  "address": [],
+  "borrowed_book": [],
+  "img_profile": null,
+  "img_profilePublic": null,
+  "created_at": {
+    "$numberLong": "1705207327609"
+  },
+  "slug": "delete",
+  "__v": 0,
+  "deleted_at": {
+    "$numberLong": "1705207735822"
+  },
+  "deleted_by": {
+    "$oid": "65a3661f1a042791a8862d9d"
+  }
+}]
